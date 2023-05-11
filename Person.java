@@ -15,23 +15,14 @@ public abstract class Person {
         return fullName;
     }
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
 
     public int getYearOfBirth() {
         return yearOfBirth;
     }
 
-    public void setYearOfBirth(int yearOfBirth) {
-        this.yearOfBirth = yearOfBirth;
-    }
 
     public double getSalary() {
         return salary;
     }
 
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
 }
